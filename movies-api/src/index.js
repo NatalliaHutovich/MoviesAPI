@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Header4 from './components/header4'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -9,6 +10,11 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
+);
+
+ReactDOM.render(
+  Header4,
+  document.getElementById('header4')
 );
 
 // If you want your app to work offline and load faster, you can change
